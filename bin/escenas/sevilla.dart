@@ -17,9 +17,16 @@ Pikachu salta de su asiento y observa por la ventana: palmeras, tejados rojizos 
 ''',
  opcion1: "1️⃣ Pasear por Plaza España.",
  opcion2: "2️⃣Ir al Barrio de Triana.//no incluida en el demo",
- accion1: (usuario) => Plazaespana.escena(usuario),
- accion2: (usuario) => Barriotriana.escena(usuario),
-  );
+ );
+
+ @override
+ Future<void> hacerAccion1() async{
+  await Plazaespana.escena(usuario);}
+ @override
+ Future<void> hacerAccion2() async{
+ await Barriotriana.escena(usuario); } 
+ 
+  
 
 
 }
