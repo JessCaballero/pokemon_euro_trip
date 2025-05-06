@@ -100,9 +100,6 @@ Pikachu ( HP: ${pikachu.vida}) vs Meowth (HP: ${meowth.vida})
           }
         }
 
-        stdout.writeln('''Regresamos al centro de Madrid''');
-        Madrid ciudad =Madrid(usuario);
-        await ciudad.mostrarOpciones();
       
     } catch (e) {
       stdout.writeln("error en la escena Puerta del Sol; $e");

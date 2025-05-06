@@ -25,11 +25,11 @@ Sus mejillas chispean ligeramente de emoción. Pero antes de empezar su aventura
   );
   @override
   Future<void> hacerAccion1() async{
-    Retiro.escena(usuario);
+    await Retiro.escena(usuario);
   }
   @override
   Future<void> hacerAccion2() async{
-    Puertadelsol.escena(usuario);
+    await Puertadelsol.escena(usuario);
   }
  
 }
